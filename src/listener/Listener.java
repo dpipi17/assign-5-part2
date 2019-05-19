@@ -28,9 +28,7 @@ public class Listener implements ServletContextListener, HttpSessionListener {
      * @see HttpSessionListener#sessionCreated(HttpSessionEvent)
      */
     public void sessionCreated(HttpSessionEvent se)  { 
-         // TODO Auto-generated method stub
-    	ShopCart cart = new ShopCart();
-    	 se.getSession().setAttribute("shoppingcart", cart);
+         
     }
 
 	/**

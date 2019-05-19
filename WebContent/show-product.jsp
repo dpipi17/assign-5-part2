@@ -20,7 +20,7 @@
 
 <br>
 <form action="CardServlet" method="post"> 
-	$<%= product.getPrice() %> <input name="productID" type="hidden" value="<%= product.getId() %>"/> 
+	$<%= product.getPrice() %> <input name="productid" type="hidden" value="<%= product.getId() %>"/> 
     <button type="submit"> Add to Cart </button> 
 </form>
 
